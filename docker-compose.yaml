@@ -8,9 +8,9 @@ services:
       - 8000:8000
       - 3333:3333
     environment:
-      CHOKIDAR_USEPOLLING: 'true'
+      #CHOKIDAR_USEPOLLING: 'true'
       INTERNAL_STATUS_PORT: 3333
-      GATSBY_WEBPACK_PUBLICPATH: /
+      #GATSBY_WEBPACK_PUBLICPATH: /
     volumes:
       - /app/node_modules
       - ./app:/app
